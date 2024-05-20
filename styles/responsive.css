@@ -1,3 +1,9 @@
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
 @media screen and (max-width: 576px) {
   .header-section {
     flex-direction: column;
